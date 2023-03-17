@@ -2,10 +2,9 @@ import React from "react";
 import FacoProject1 from "../assets/portfolio/FacoProject1.png";
 import turinProject from "../assets/portfolio/turinProject.png";
 import hotelmgtProject from "../assets/portfolio/hotelmgtProject.png";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-
+import podGProject from "../assets/portfolio/podGProject.png";
+import ewalletapi from "../assets/portfolio/ewalletapi.png";
+import queenFisherProject from "../assets/portfolio/queenFisherProject.png";
 const Portfolio = () => {
   const portfolios = [
     {
@@ -22,15 +21,15 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: podGProject,
     },
     {
       id: 5,
-      src: installNode,
+      src: queenFisherProject,
     },
     {
       id: 6,
-      src: reactWeather,
+      src: ewalletapi,
     },
   ];
 
@@ -47,21 +46,21 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-4 md:grid-cols-3 gap-6 px-12 sm:px-0">
           {portfolios.map(({ id, src }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+            <div key={id} className="shadow-md shadow-gray-600 rounded-1g">
               <img
                 src={src}
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
+              <a href="https://github.com/aristokratos" target="_blank" rel="noreferrer">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Code
                 </button>
+              </a>
+
               </div>
             </div>
           ))}

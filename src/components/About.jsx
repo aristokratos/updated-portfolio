@@ -13,13 +13,11 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-20">
-        I am a highly skilled and dedicated full stack software engineer with a strong foundation in programming languages such as C# and extensive experience working on both front-end and back-end development projects. In my current role, I have had the opportunity to work on a variety of projects, including building and maintaining web applications, creating and implementing database systems, and developing APIs.
-
-        With a passion for staying up-to-date on the latest technology trends, I continuously learn and improve my skills, expanding my knowledge base to include other languages such as ReactJS, JavaScript, Python for machine learning, and C language. As a result, I possess the technical expertise required to tackle challenging projects and deliver outstanding results.
-
-        In addition to my technical prowess, I am a highly effective communicator and collaborator, consistently working well with cross-functional teams to achieve project success. I strongly believe in the importance of effective communication, as it serves as a foundation for a productive and efficient work environment.
-
+        <p className="text-xl mt-10">
+        I am a skilled full-stack software engineer proficient in a range of programming languages, including C#, JavaScript, ReactJS, Python, and C. 
+          I have extensive experience working on both front-end and back-end development projects, including web application building and maintenance, database system creation and implementation, and API development. 
+          I am passionate about staying up-to-date with the latest technology trends, constantly expanding my knowledge base to include new languages and frameworks. With my technical expertise, 
+          
         </p>
 
         <br />
